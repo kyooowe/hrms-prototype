@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Icons } from "@/components/ui/icons"
+import Link from "next/link"
 //#endregion
 
 const LoginForm = () => {
@@ -30,7 +31,7 @@ const LoginForm = () => {
                         />
                     </div>
                     <Button>
-                        Login Account
+                        <Link href="/employees">Login Account (Click to proceed on dashboard)</Link>
                     </Button>
                 </div>
             </form>
