@@ -31,7 +31,7 @@ const LoginForm = () => {
                         />
                     </div>
                     <Button>
-                        <Link href="/employees">Login Account (Click to proceed on dashboard)</Link>
+                        <Link href="/employee/dashboard">Login Account (Click to proceed on dashboard)</Link>
                     </Button>
                 </div>
             </form>
